@@ -1,4 +1,4 @@
-# Chatbot-app
+# ChatBot-app
 
 ## ChatBot application using: React Native, styled-components
 
