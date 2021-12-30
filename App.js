@@ -1,15 +1,13 @@
-import { View, Text } from "react-native";
+import React from 'react';
+import { View, Text, SafeAreaView } from "react-native";
+import ChatBot from './src/chatBot';
 
-export default function App() {
+const App = () => {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Universal React with Expo</Text>
-    </View>
+    <SafeAreaView>
+      <ChatBot />
+    </SafeAreaView>
   );
-}
+};
+
+export default App;
